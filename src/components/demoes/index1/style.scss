@@ -1,0 +1,21 @@
+@import '../../../../public/assets/scss/skins/skin-demo-2';
+@import '../../../../public/assets/scss/demos/demo-2';
+
+@media screen and (max-width: 992px) {
+    .banner {
+        > a {
+            height: 256px;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+    .banner-lg {
+        > a {
+            height: 512px;
+        }
+    }
+}
